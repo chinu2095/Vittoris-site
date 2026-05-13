@@ -1,0 +1,137 @@
+
+.line-hover {
+  position: relative;
+}
+
+.line-hover::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0;
+  height: 2px;
+  background: #f5660e;
+  transition: 0.35s;
+}
+
+.line-hover:hover::after {
+  width: 100%;
+}
+
+
+.second-Ai-text{
+  font-size: large;
+  color:aqua
+}
+
+.marquee {
+  width: max-content;
+  animation: scrollLeft 22s linear infinite;
+}
+
+.company {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: rgba(255,255,255,0.92);
+  padding: 0 1.5rem;
+  letter-spacing: -0.03em;
+}
+
+.divider {
+  width: 2px;
+  height: 70px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(255,255,255,0.6),
+    transparent
+  );
+}
+
+@keyframes scrollLeft {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
+
+.service-card {
+  transition: all 0.5s ease;
+}
+
+.service-card:hover {
+  border-color: rgba(249, 115, 22, 0.3);
+}
+
+.service-card:hover .service-number {
+  background: #f97316;
+  color: black;
+  border-color: #f97316;
+  transform: scale(1.08);
+  box-shadow: 0 0 35px rgba(249, 115, 22, 0.35);
+}
+
+.service-card:hover .service-number-active {
+  transform: scale(1.08);
+  box-shadow: 0 0 35px rgba(249, 115, 22, 0.45);
+}
+
+.service-card:hover h2 {
+  color: #fff;
+}
+
+.service-image img {
+  will-change: transform;
+}
+.smooth-transition{
+  transition:
+    transform 900ms cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 900ms cubic-bezier(0.22, 1, 0.36, 1),
+    filter 900ms cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 900ms cubic-bezier(0.22, 1, 0.36, 1),
+    background-color 900ms cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 900ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.work-card{
+  transition:
+    transform 900ms cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 900ms cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 900ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.work-card:hover{
+  transform: translateY(-12px);
+  border-color: rgba(255,120,0,0.25);
+  box-shadow:
+    0 0 40px rgba(255,120,0,0.08);
+}
+
+.work-image{
+  transition:
+    transform 1200ms cubic-bezier(0.22, 1, 0.36, 1),
+    filter 1200ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.work-card:hover .work-image{
+  transform: scale(1.06);
+  filter:
+    brightness(1.05)
+    saturate(1.15);
+}
+
+.smooth-transition{
+  transition:
+    transform 900ms cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 900ms cubic-bezier(0.22, 1, 0.36, 1),
+    filter 900ms cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 900ms cubic-bezier(0.22, 1, 0.36, 1),
+    background-color 900ms cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 900ms cubic-bezier(0.22, 1, 0.36, 1),
+    color 900ms cubic-bezier(0.22, 1, 0.36, 1);
+}

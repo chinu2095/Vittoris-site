@@ -1,0 +1,2806 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="images/logo.jpg">
+  <title>Vittoris Agency |</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class'
+    }
+  </script>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      background: #000;
+      overflow-x: hidden;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .planet {
+      position: absolute;
+      width: 900px;
+      height: 900px;
+      border-radius: 50%;
+      background:
+        radial-gradient(circle at 70% 70%, #fe7500, #ff7300 30%, #181818 68%);
+      top: 120px;
+      left: 50%;
+      transform: translateX(-60%);
+      box-shadow:
+        0 0 80px rgba(255,120,0,0.45),
+        0 0 200px rgba(255,120,0,0.18);
+      z-index: 0;
+    }
+
+    .planet::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      background:
+        radial-gradient(circle at 60% 40%, transparent 40%, rgba(0,0,0,0.92) 72%);
+      mix-blend-mode: multiply;
+    }
+
+    .glass {
+      backdrop-filter: blur(10px);
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .floating {
+      animation: float 6s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(-19px);
+      }
+      100% {
+        transform: translateY(10px);
+      }
+    }
+
+  </style>
+</head>
+<body class="text-white">
+
+  <!-- Navbar -->
+
+
+ 
+  <div class="dot fixed"></div>
+
+  <!-- Hero -->
+  
+    <nav class="glass relative top-2 left-1/2 -translate-x-1/2 w-[95%] z-30 rounded-[30px] border-b px-8 py-4 flex items-center justify-between">
+
+      <div class="text-5xl font-black tracking-tight text-orange-400 bg-gradient-to-r from-white/10 -to-transparent">
+        Vittoris.
+      </div>
+  
+      <ul class="hidden md:flex gap-10 text-sm uppercase  tracking-widest">
+        <li class="line-hover cursor-pointer"><a href="about.html">About</a></li>
+        <li class="line-hover cursor-pointer"><a href="work.html">Work</a></li>
+        <li class="line-hover cursor-pointer"><a href="contact.html">Contact</a></li>
+      </ul>
+  
+     
+  
+    </nav>
+
+    <!-- BACKGROUND IMAGE -->
+    <img
+      src="images/orange-ring-bg.png"
+      alt=""
+      class="
+        absolute
+        inset-0
+        w-full
+        h-full
+        object-cover
+        object-right
+        opacity-90
+        z-0
+      "
+    />
+  
+    <!-- DARK OVERLAY -->
+ 
+  
+    <!-- CONTENT -->
+    <div class="
+      relative
+      z-20
+      min-h-screen
+      flex
+      items-center
+      px-8
+      md:px-20
+    ">
+  
+      <!-- LEFT TEXT -->
+      <div class="max-w-[750px]">
+        <h1 class="
+        text-6xl
+        md:text-[6rem]
+        font-black
+        leading-[0.95]
+        tracking-[-0.07em]
+        text-white
+      ">
+      
+        Turning Business into
+      
+        <span class="
+        bg-gradient-to-br
+        from-white
+        via-orange-300
+        via-40%
+        to-orange-700
+        bg-clip-text
+        text-transparent
+      ">
+        AI-Powered Machine.
+      </span>
+      
+      </h1>
+  
+        <p class="
+          mt-10
+          max-w-[600px]
+          text-xl
+          leading-relaxed
+        
+          font-black
+
+          bg-gradient-to-br
+          from-white
+          via-orange-100
+          via-40%
+          to-orange-300
+          bg-clip-text
+          text-transparent
+        ">
+  
+        We drive scalable growth through AI-powered strategy, smart systems, and performance-focused execution that turns engagement into measurable revenue.
+  
+        </p>
+  
+        <!-- BUTTON -->
+        <button class="
+          mt-12
+          px-8
+          py-4
+          rounded-full
+          bg-orange-400
+          text-black
+          font-semibold
+          text-lg
+          hover:scale-105
+          transition
+        ">
+          <a href="contact.html">Connect</a>
+            <span class="group-hover:translate-x-3 transition">
+              →
+            </span>
+        </button>
+  
+      </div>
+  
+    </div>
+  
+
+  <section class="relative h-screen lg:h-[80vh] overflow-hidden gap-14">
+
+    <!-- BACKGROUND -->
+    <div class="absolute inset-0 z-0">
+  
+      <!-- BG IMAGE -->
+      <img
+        src="images/cluster-orange.png"
+        alt=""
+        class="
+          absolute
+          inset-0
+          w-full
+          h-full
+          object-cover
+          object-center
+          opacity-75
+          scale-105
+        "
+      />
+  
+      <!-- DARK OVERLAY -->
+      <div class="
+        absolute
+        inset-0
+        bg-gradient-to-r
+        from-black
+        via-black/55
+        to-black/10
+      "></div>
+  
+      <!-- ORANGE DEPTH -->
+    
+  
+    </div>
+  
+    <!-- CONTENT -->
+      <div class="
+        relative
+        z-10
+        h-full
+        flex
+        flex-col
+        xl:flex-row
+        justify-center
+        xl:justify-between
+        items-start
+        xl:items-center
+        gap-16
+        px-8
+        md:px-14
+        xl:px-20
+      ">
+  
+      <!-- LEFT SIDE -->
+      <div class="
+        w-full
+        lg:w-[48%]
+  
+        max-w-[650px]
+  
+        mt-32
+        lg:mt-0
+      ">
+  
+        <!-- HEADING -->
+        <div class="
+          text-[4rem]
+          sm:text-[5rem]
+          md:text-[7rem]
+  
+          font-black
+          uppercase
+  
+          leading-[0.88]
+          tracking-[-0.08em]
+        ">
+  
+          <span class="text-white mb-40px ml-[30px]">
+            Meet <br><span class=" ml-[200px] gap-12 ">The</span>
+          </span>
+  
+          <br />
+  
+          <span class="
+            bg-gradient-to-br
+            from-white
+            via-orange-300
+            to-orange-700
+            bg-clip-text
+            text-transparent
+            p-6
+            mb-40px
+            mt-30
+          ">
+            Founders
+          </span>
+  
+        </div>
+  
+        <!-- DESCRIPTION -->
+        <p class="
+        bg-gradient-to-br
+        from-white
+        via-orange-300
+        to-orange-700
+        bg-clip-text
+        text-transparent
+        p-6
+        text-2xl
+        ">
+          Visionaries building intelligent systems,
+          scalable growth, and modern digital experiences.
+        </p>
+  
+        <!-- SMALL LINE -->
+        <div class="
+          mt-10
+          w-24
+          h-[2px]
+          bg-orange-500
+        "></div>
+  
+      </div>
+  
+      <!-- RIGHT SIDE -->
+      <div class="
+        flex
+        flex-wrap
+  
+        justify-center
+        lg:justify-end
+  
+        items-center
+  
+        gap-10
+        lg:gap-14
+  
+        w-full
+        lg:w-auto
+  
+        pb-20
+        lg:pb-0
+      ">
+  
+        <!-- FOUNDER 1 -->
+        <div class="group relative">
+  
+          <!-- CARD -->
+          <div class="
+            relative
+  
+            w-[200px]
+            h-[200px]
+  
+            sm:w-[190px]
+            sm:h-[190px]
+  
+            rounded-full
+  
+            border
+          
+  
+            overflow-hidden
+  
+            transition-all
+            duration-700
+            ease-out
+  
+            cursor-pointer
+  
+            hover:w-[280px]
+            hover:h-[400px]
+  
+            hover:rounded-[2rem]
+  
+            bg-black/30
+            backdrop-blur-xl
+  
+            shadow-[0_0_60px_rgba(255,120,0,0.12)]
+          ">
+  
+            <!-- IMAGE -->
+            <img
+            src="images/founder1.png"
+            alt=""
+            class="
+              w-full
+              h-full
+              object-cover
+              object-center
+              scale-110
+              transition-all
+              duration-700
+              ease-out
+              hover:scale-125
+              hover:object-top
+            "
+          />
+  
+            <!-- CONTENT -->
+            <div class="
+              absolute
+              bottom-0
+              left-0
+  
+              w-full
+  
+              p-6
+  
+              opacity-0
+              translate-y-10
+  
+              transition-all
+              duration-500
+              delay-200
+  
+              group-hover:opacity-100
+              group-hover:translate-y-0
+            ">
+  
+              <h3 class="
+                text-2xl
+                font-semibold
+                text-white
+                mb-2
+              ">
+              Udayveer Singh
+              </h3>
+  
+              <p class="
+              
+  
+                text-orange-400
+                mb-4
+  
+                text-sm
+                uppercase
+  
+                tracking-[0.25em]
+              ">
+                Founder
+              </p>
+  
+              <div class="
+                mt-2
+                w-10
+                h-[2px]
+                bg-orange-500
+              "></div>
+  
+              <p class="
+                mt-4
+  
+                text-white
+  
+                text-sm
+  
+                leading-relaxed
+              ">
+                Builds scalable AI infrastructure,
+                automation systems, and high-performance workflows.
+              </p>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+  
+        <!-- FOUNDER 2 -->
+        <div class="group relative">
+  
+          <!-- CARD -->
+          <div class="
+            relative
+  
+            w-[200px]
+            h-[200px]
+  
+            sm:w-[190px]
+            sm:h-[190px]
+  
+            rounded-full
+  
+            border
+          
+  
+            overflow-hidden
+  
+            transition-all
+            duration-700
+            ease-out
+  
+            cursor-pointer
+  
+            hover:w-[280px]
+            hover:h-[400px]
+  
+            hover:rounded-[2rem]
+  
+            bg-black/30
+            backdrop-blur-xl
+  
+            shadow-[0_0_60px_rgba(255,120,0,0.12)]
+          ">
+  
+            <!-- IMAGE -->
+            <img
+            src="images/founder2.jpg"
+            alt=""
+            class="
+              w-full
+              h-full
+              object-cover
+              object-center
+              scale-110
+              transition-all
+              duration-700
+              ease-out
+              hover:scale-125
+              hover:object-top
+            "
+          />
+  
+            <!-- CONTENT -->
+            <div class="
+              absolute
+              bottom-0
+              left-0
+  
+              w-full
+  
+              p-6
+  
+              opacity-0
+              translate-y-10
+  
+              transition-all
+              duration-500
+              delay-200
+  
+              group-hover:opacity-100
+              group-hover:translate-y-0
+            ">
+  
+              <h3 class="
+                text-2xl
+                font-semibold
+                text-white
+              ">
+              Harshita Bakshi
+              </h3>
+  
+              <p class="
+                mt-2
+  
+                text-orange-400
+  
+                text-sm
+                uppercase
+  
+                tracking-[0.25em]
+              ">
+              AI Specialist
+              </p>
+  
+              <div class="
+                mt-5
+                w-10
+                h-[2px]
+                bg-orange-500
+              "></div>
+  
+              <p class="
+                mt-2
+  
+                text-white
+  
+                text-sm
+  
+                leading-relaxed
+              ">
+                 Builds AI-driven automations, workflows, and chatbot
+                 systems to optimize efficiency, innovation, and lead generation.
+              </p>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+  
+      </div>
+  
+    </div>
+  
+  </section>
+
+
+  <!-- HERO SECTION -->
+
+ 
+
+  <!-- Brands -->
+  <section class="border-y border-white/10 py-6 overflow-hidden bg-black">
+
+    <!-- MARQUEE WRAPPER -->
+    <div class="relative w-full overflow-hidden">
+  
+      <!-- MOVING ROW -->
+      <div class="marquee flex items-center whitespace-nowrap">
+  
+        <!-- ITEM -->
+        <div class="flex items-center">
+          <span class="company">Fishtank</span>
+          <div class="divider"></div>
+        </div>
+  
+        <div class="flex items-center">
+          <span class="company">MenuOrder AI</span>
+          <div class="divider"></div>
+        </div>
+  
+        <div class="flex items-center">
+          <span class="company">Yashvasin</span>
+          <div class="divider"></div>
+        </div>
+  
+        <div class="flex items-center">
+          <span class="company">Le Meute Properties</span>
+          <div class="divider"></div>
+        </div>
+  
+        <div class="flex items-center">
+          <span class="company">Powur Energy</span>
+          <div class="divider"></div>
+        </div>
+  
+        <!-- DUPLICATE FOR SMOOTH LOOP -->
+        <div class="flex items-center">
+          <span class="company">Fishtank</span>
+          <div class="divider"></div>
+        </div>
+  
+        <div class="flex items-center">
+          <span class="company">MenuOrder AI</span>
+          <div class="divider"></div>
+        </div>
+  
+        <div class="flex items-center">
+          <span class="company">Yashvasin</span>
+          <div class="divider"></div>
+        </div>
+  
+        <div class="flex items-center">
+          <span class="company">Le Meute Properties</span>
+          <div class="divider"></div>
+        </div>
+  
+        <div class="flex items-center">
+          <span class="company">Powur Energy</span>
+          <div class="divider"></div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+
+  <!-- Cards -->
+ <!-- SERVICES SECTION -->
+<section class="w-full px-6 md:px-12 py-24 bg-black overflow-hidden">
+
+  <!-- TITLE -->
+  <div class="mb-20">
+
+    <div class="flex items-end gap-6">
+
+      <h1 class="
+        text-6xl
+        md:text-8xl
+        font-black
+        uppercase
+        leading-none
+        tracking-[-0.08em]
+      ">
+        SERVICES
+      </h1>
+
+      <div class="h-[2px] bg-orange-500 flex-1 mb-3 opacity-80"></div>
+
+    </div>
+
+  </div>
+
+  <!-- SERVICES -->
+  <div class="space-y-0">
+
+    <!-- ITEM 1 -->
+    <div class="service-card group border-b border-white/10 py-10 cursor-pointer">
+
+      <div class="grid grid-cols-1 lg:grid-cols-[0.9fr_1.1fr] gap-12 items-center">
+
+        <!-- LEFT -->
+        <div class="flex items-center gap-6">
+
+          <div class="
+            service-number
+            w-14
+            h-14
+            rounded-lg
+            border
+            border-white/10
+            bg-zinc-900
+            text-white
+            flex
+            items-center
+            justify-center
+            text-lg
+            transition-all
+            duration-500
+          ">
+            01
+          </div>
+
+          <h2 class="
+            text-3xl
+            md:text-5xl
+            font-extralight
+            uppercase
+            tracking-tight
+            transition-all
+            duration-500
+            group-hover:translate-x-3
+          ">
+            AI Implementation
+          </h2>
+
+        </div>
+
+        <!-- RIGHT -->
+        <div class="
+          service-image
+          overflow-hidden
+          rounded-[24px]
+          h-[140px]
+          md:h-[170px]
+          transition-all
+          duration-700
+          group-hover:h-[240px]
+        ">
+
+          <img
+            src="https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1600&auto=format&fit=crop"
+            class="
+              w-full
+              h-full
+              object-cover
+              transition-all
+              duration-700
+              group-hover:scale-110
+              brightness-[0.85]
+              contrast-[1.1]
+              saturate-[1.25]
+              sepia-[0.12]
+            "
+          />
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- ITEM 2 -->
+    <div class="service-card group border-b border-white/10 py-10 cursor-pointer">
+
+      <div class="grid grid-cols-1 lg:grid-cols-[0.9fr_1.1fr] gap-12 items-center">
+
+        <div class="flex items-center gap-6">
+
+          <div class="
+          service-number
+          w-[58px]
+          h-[58px]
+          rounded-lg
+          border
+          border-white/10
+          bg-zinc-900
+          text-white
+          flex
+          items-center
+          justify-center
+          text-lg
+          font-semibold
+          tracking-[-0.08em]
+          tabular-nums
+          transition-all
+          duration-500
+          p-5
+        ">
+          02
+        </div>
+
+          <h2 class="
+            text-3xl
+            md:text-5xl
+            font-extralight
+            uppercase
+            tracking-tight
+            transition-all
+            duration-500
+            group-hover:translate-x-3
+          ">
+            Performance Advertising
+          </h2>
+
+        </div>
+
+        <div class="
+          service-image
+          overflow-hidden
+          rounded-[24px]
+          h-[140px]
+          md:h-[170px]
+          transition-all
+          duration-700
+          group-hover:h-[240px]
+        ">
+
+          <img
+            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1600&auto=format&fit=crop"
+            class="
+              w-full
+              h-full
+              object-cover
+              transition-all
+              duration-700
+              group-hover:scale-110
+              brightness-[0.88]
+              contrast-[1.12]
+              saturate-[1.3]
+              sepia-[0.1]
+            "
+          />
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- ITEM 3 -->
+    <div class="service-card group border-b border-white/10 py-10 cursor-pointer">
+
+      <div class="grid grid-cols-1 lg:grid-cols-[0.9fr_1.1fr] gap-12 items-center">
+
+        <div class="flex items-center gap-6">
+
+          <div class="
+          service-number
+          w-[58px] 
+          h-[58px]
+          rounded-lg
+          border
+          border-white/10
+          bg-zinc-900
+          text-white
+          flex
+          items-center
+          justify-center
+          text-lg
+          font-semibold
+          tracking-[-0.08em]
+          tabular-nums
+          transition-all
+          duration-500
+          p-5
+        ">
+          03
+        </div>
+
+          <h2 class="
+            text-3xl
+            md:text-5xl
+            font-extralight
+            uppercase
+            tracking-tight
+            transition-all
+            duration-500
+            group-hover:translate-x-3
+          ">
+            Client Acquisition Systems
+          </h2>
+
+        </div>
+
+        <div class="
+          service-image
+          overflow-hidden
+          rounded-[24px]
+          h-[140px]
+          md:h-[170px]
+          transition-all
+          duration-700
+          group-hover:h-[240px]
+        ">
+
+          <img
+            src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1600&auto=format&fit=crop"
+            class="
+              w-full
+              h-full
+              object-cover
+              transition-all
+              duration-700
+              group-hover:scale-110
+              brightness-[0.82]
+              contrast-[1.1]
+              saturate-[1.2]
+              sepia-[0.08]
+            "
+          />
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- ITEM 4 -->
+    <div class="service-card group border-b border-white/10 py-10 cursor-pointer">
+
+      <div class="grid grid-cols-1 lg:grid-cols-[0.9fr_1.1fr] gap-12 items-center">
+
+        <div class="flex items-center gap-6">
+
+          <div class="
+          service-number
+          w-[58px] h-[58px]
+          rounded-lg
+          border
+          border-white/10
+          bg-zinc-900
+          text-white
+          flex
+          items-center
+          justify-center
+          text-lg
+          font-semibold
+          tracking-[-0.08em]
+          tabular-nums
+          transition-all
+          duration-500
+          p-5
+        ">
+          04
+        </div>
+
+          <h2 class="
+            text-3xl
+            md:text-5xl
+            font-extralight
+            uppercase
+            tracking-tight
+            transition-all
+            duration-500
+            group-hover:translate-x-3
+          ">
+            Revenue Growth Strategy
+          </h2>
+
+        </div>
+
+        <div class="
+          service-image
+          overflow-hidden
+          rounded-[24px]
+          h-[140px]
+          md:h-[170px]
+          transition-all
+          duration-700
+          group-hover:h-[240px]
+        ">
+
+          <img
+            src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop"
+            class="
+              w-full
+              h-full
+              object-cover
+              transition-all
+              duration-700
+              group-hover:scale-110
+              brightness-[0.85]
+              contrast-[1.12]
+              saturate-[1.2]
+              sepia-[0.08]
+            "
+          />
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="w-full bg-black text-white px-6 md:px-12 py-24 overflow-hidden">
+
+  <!-- TITLE -->
+  <div class="mb-16">
+
+    <div class="flex items-end gap-6">
+
+      <h1 class="
+        text-5xl
+        md:text-8xl
+        font-black
+        uppercase
+        leading-none
+        tracking-[-0.08em]
+      ">
+        WHO WE ARE
+      </h1>
+
+      <div class="h-[2px] bg-orange-500 flex-1 mb-3 opacity-80"></div>
+
+    </div>
+
+  </div>
+
+  <!-- LABELS -->
+  <!-- LABELS -->
+<div class="grid grid-cols-2 mb-10 items-center">
+
+  <!-- LEFT -->
+  <div class="flex items-center gap-5 justify-start">
+
+    <div class="
+      text-orange-500
+      text-6xl
+      md:text-7xl
+      font-thin
+      leading-none
+    ">
+      +
+    </div>
+
+    <h2 class="
+      text-3xl
+      md:text-5xl
+      font-extralight
+      uppercase
+      leading-[0.9]
+      tracking-[-0.05em]
+    ">
+      OUR <br />
+      MISSION
+    </h2>
+
+  </div>
+
+  <!-- RIGHT -->
+  <div class="flex items-center gap-5 justify-center md:justify-end">
+
+    <h2 class="
+      text-3xl
+      md:text-5xl
+      font-extralight
+      uppercase
+      leading-[0.9]
+      tracking-[-0.05em]
+      text-right
+    ">
+      OUR <br />
+      VISION
+    </h2>
+
+    <div class="
+      text-orange-500
+      text-6xl
+      md:text-7xl
+      font-thin
+      leading-none
+    ">
+      +
+    </div>
+
+  </div>
+
+</div>
+
+  <!-- CARDS -->
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+    <!-- CARD 1 -->
+    <div class="
+      group
+      relative
+      rounded-[30px]
+      border
+      border-orange-500/15
+      bg-[#140704]
+      overflow-hidden
+      p-6
+      md:p-8
+      transition-all
+      duration-700
+      hover:border-orange-500/30
+    ">
+
+      <!-- GLOW -->
+      <div class="
+        absolute
+        inset-0
+        opacity-0
+        group-hover:opacity-100
+        transition-all
+        duration-700
+        pointer-events-none
+      ">
+
+        <div class="
+          absolute
+          top-[-100px]
+          left-[-100px]
+          w-[260px]
+          h-[260px]
+          rounded-full
+          bg-orange-500/10
+          blur-[110px]
+        "></div>
+
+      </div>
+
+      <!-- ORB -->
+      <div class="
+        absolute
+        top-6
+        right-6
+        w-5
+        h-5
+        rounded-full
+        bg-black
+        border
+        border-orange-500/30
+      "></div>
+
+      <!-- MOBILE STACK / DESKTOP GRID -->
+      <div class="
+        relative
+        z-10
+        flex
+        flex-col
+        md:grid
+        md:grid-cols-2
+        gap-6
+        h-full
+      ">
+
+        <!-- TEXT -->
+        <div class="flex flex-col justify-between order-1">
+
+          <p class="
+            text-lg
+            md:text-2xl
+            leading-relaxed
+            text-white/85
+            font-light
+            transition-all
+            duration-500
+            group-hover:text-white
+          ">
+            We drive sustainable business growth through intelligent systems that attract, convert, and retain high-value clients.
+          </p>
+
+          <div class="
+            w-6
+            h-6
+            md:w-10
+            md:h-10
+            rounded-lg
+            bg-orange-500
+            mt-8
+            transition-all
+            duration-500
+            group-hover:rotate-12
+          "></div>
+
+        </div>
+
+        <!-- IMAGE -->
+        <div class="
+          overflow-hidden
+          rounded-[24px]
+          min-h-[240px]
+          md:min-h-[320px]
+          order-2
+        ">
+
+          <img
+            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop"
+            class="
+              w-full
+              h-full
+              object-cover
+              transition-all
+              duration-700
+              group-hover:scale-105
+              brightness-[0.9]
+            "
+          />
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="
+      group
+      relative
+      rounded-[30px]
+      border
+      border-orange-500/15
+      bg-[#140704]
+      overflow-hidden
+      p-6
+      md:p-8
+      transition-all
+      duration-700
+      hover:border-orange-500/30
+    ">
+
+      <!-- GLOW -->
+      <div class="
+        absolute
+        inset-0
+        opacity-0
+        group-hover:opacity-100
+        transition-all
+        duration-700
+        pointer-events-none
+      ">
+
+        <div class="
+          absolute
+          bottom-[-120px]
+          right-[-120px]
+          w-[280px]
+          h-[280px]
+          rounded-full
+          bg-orange-500/10
+          blur-[120px]
+        "></div>
+
+      </div>
+
+      <!-- DIAGONAL SHAPE -->
+      <div class="
+        absolute
+        right-[-100px]
+        bottom-[-100px]
+        w-[220px]
+        h-[220px]
+        bg-black/20
+        rotate-45
+      "></div>
+
+      <!-- CONTENT -->
+      <div class="
+        relative
+        z-10
+        flex
+        flex-col
+        md:grid
+        md:grid-cols-2
+        gap-6
+        h-full
+      ">
+
+        <!-- IMAGE -->
+        <div class="
+          overflow-hidden
+          rounded-[24px]
+          min-h-[240px]
+          md:min-h-[320px]
+          order-2
+          md:order-1
+        ">
+
+          <img
+            src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop"
+            class="
+              w-full
+              h-full
+              object-cover
+              transition-all
+              duration-700
+              group-hover:scale-105
+              brightness-[0.9]
+            "
+          />
+
+        </div>
+
+        <!-- TEXT -->
+        <div class="
+          flex
+          flex-col
+          justify-between
+          order-1
+          md:order-2
+        ">
+
+          <div class="
+            w-6
+            h-6
+            md:w-10
+            md:h-10
+            rounded-lg
+            border
+            border-orange-500
+            transition-all
+            duration-500
+            group-hover:rotate-12
+          "></div>
+
+          <p class="
+            text-lg
+            md:text-2xl
+            leading-relaxed
+            text-white/85
+            font-light
+            mt-8
+            md:mt-0
+            transition-all
+            duration-500
+            group-hover:text-white
+          ">
+            We turn innovative ideas into scalable, revenue-driven systems through intelligent strategy and performance-focused execution.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+ <!-- ========================= -->
+<!-- WORK SECTION -->
+<!-- ========================= -->
+
+<section id="work" class="relative w-full bg-black text-white px-6 md:px-12 py-24 overflow-hidden">
+
+  <!-- BACKGROUND GLOW -->
+  <div class="
+    absolute
+    top-[-300px]
+    left-1/2
+    -translate-x-1/2
+    w-[1200px]
+    h-[1200px]
+    rounded-full
+    bg-[radial-gradient(circle,rgba(255,120,0,.18),transparent_58%)]
+    pointer-events-none
+  "></div>
+
+  <!-- HEADER -->
+  <div class="relative z-10 mb-20">
+
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-8">
+
+      <!-- LEFT -->
+      <div class="flex items-end gap-6 w-full">
+
+        <h1 class="
+          text-6xl
+          md:text-8xl
+          font-black
+          uppercase
+          leading-none
+          tracking-[-0.08em]
+        ">
+          WORK
+        </h1>
+
+        <div class="h-[2px] bg-orange-500 flex-1 mb-3 opacity-80"></div>
+
+      </div>
+
+      <!-- BUTTON -->
+      <a
+        href="work.html"
+        class="
+          group
+          whitespace-nowrap
+          border
+          border-white/10
+          rounded-xl
+          px-6
+          py-3
+          uppercase
+          text-sm
+          tracking-[0.2em]
+          bg-white/[0.03]
+          backdrop-blur-md
+          hover:bg-white
+          hover:text-black
+          hover:border-orange-400
+          transition-all
+          duration-700
+        "
+      >
+        Explore Work
+      </a>
+
+    </div>
+
+  </div>
+
+  <!-- GRID -->
+  <div class="
+    relative
+    z-10
+    grid
+    grid-cols-1
+    md:grid-cols-2
+    xl:grid-cols-3
+    gap-10
+  ">
+
+    <!-- ==================== -->
+    <!-- CARD -->
+    <!-- ==================== -->
+    <a href="work.html#fishtank" class="group block">
+
+      <div class="
+        relative
+        overflow-hidden
+        rounded-[32px]
+        h-[400px]
+        bg-[#070707]
+        border
+        border-white/5
+        transition-all
+        duration-700
+        group-hover:border-orange-500/20
+        group-hover:-translate-y-2
+      ">
+
+        <!-- IMAGE -->
+        <img
+          src="images/fishtank1.png"
+          class="
+            absolute
+            inset-0
+            w-full
+            h-full
+            object-cover
+            opacity-70
+            transition-all
+            duration-700
+            group-hover:scale-110
+            group-hover:opacity-90
+            group-hover:brightness-110
+          "
+        />
+
+     
+
+        <!-- ORANGE GLOW -->
+        <div class="
+          absolute
+          inset-0
+          opacity-0
+          group-hover:opacity-100
+          transition-all
+          duration-700
+          bg-[radial-gradient(circle_at_center,rgba(255,120,0,.28),transparent_60%)]
+        "></div>
+
+        <!-- CONTENT -->
+        <div class="
+          absolute
+          bottom-0
+          left-0
+          p-8
+          z-20
+        ">
+
+          <span class="
+            text-white/40
+            uppercase
+            tracking-[0.25em]
+            text-xs
+            group-hover:text-black
+          ">
+            Acquisition Systems
+          </span>
+
+          <h2 class="
+            mt-3
+            text-5xl
+            font-black
+            tracking-[-0.06em]
+            transition-all
+            duration-500
+            group-hover:text-black
+          ">
+            Fishtank
+          </h2>
+
+        </div>
+
+      </div>
+
+    </a>
+
+    <!-- ==================== -->
+    <!-- CARD -->
+    <!-- ==================== -->
+    <a href="work.html#menuorder" class="group block">
+
+      <div class="
+        relative
+        overflow-hidden
+        rounded-[32px]
+        h-[400px]
+        bg-[#070707]
+        border
+        border-white/5
+        transition-all
+        duration-700
+        group-hover:text-[#9FE045]
+        group-hover:border-orange-500/20
+        group-hover:-translate-y-2
+      ">
+
+      <img
+        src="images/menu-order.png"
+        class="
+          absolute
+          inset-0
+          w-full
+          h-full
+          object-cover
+          opacity-75
+          transition-all
+          duration-700
+          group-hover:scale-110
+          group-hover:opacity-100
+          group-hover:saturate-150
+          group-hover:brightness-110
+        "
+      />
+
+      
+
+        <!-- CENTER GLOW -->
+        <div class="
+          absolute
+          inset-0
+          bg-[radial-gradient(circle_at_center,rgba(255,120,0,.4),transparent_30%)]
+          opacity-80
+        "></div>
+
+        <!-- CONTENT -->
+        <div class="
+          absolute
+          bottom-0
+          left-0
+          p-8
+          z-20
+        ">
+
+          <span class="
+            text-white/40
+            uppercase
+            tracking-[0.25em]
+            text-xs
+            group-hover:text-black
+
+          ">
+            AI Automation
+          </span>
+
+          <h2 class="
+            mt-3
+            text-5xl
+            font-black
+            tracking-[-0.06em]
+            transition-all
+            duration-500
+            group-hover:text-
+          ">
+            MenuOrder AI
+          </h2>
+
+        </div>
+
+      </div>
+
+    </a>
+
+    <!-- ==================== -->
+    <!-- CARD -->
+    <!-- ==================== -->
+    <a href="work.html#yashvasin" class="group block">
+
+      <div class="
+        relative
+        overflow-hidden
+        rounded-[32px]
+        h-[400px]
+        bg-[#070707]
+        border
+        border-white/5
+        transition-all
+        duration-700
+        group-hover:text-black
+        group-hover:border-orange-500/20
+        group-hover:-translate-y-2
+      ">
+
+        <img
+          src="images/yash-vasin.png"
+          class="
+            absolute
+            inset-0
+            w-full
+            h-full
+            object-cover
+            opacity-70
+            transition-all
+            duration-700
+            group-hover:scale-110
+            group-hover:brightness-110
+          "
+        />
+
+      
+
+        <!-- FLOATING ORB -->
+        <div class="
+          absolute
+          top-10
+          right-10
+          w-14
+          h-14
+          rounded-full
+          bg-[radial-gradient(circle,rgba(255,120,0,.95),rgba(255,120,0,.12),transparent)]
+        "></div>
+
+        <!-- CONTENT -->
+        <div class="
+          absolute
+          bottom-0
+          left-0
+          p-8
+          z-20
+        ">
+
+          <span class="
+            text-white/40
+            uppercase
+            tracking-[0.25em]
+            text-xs
+            group-hover:text-white
+          ">
+            Premium Identity
+          </span>
+
+          <h2 class="
+            mt-3
+            text-5xl
+            font-black
+            tracking-[-0.06em]
+            transition-all
+            duration-500
+            group-hover:text-orange-400
+          ">
+            Yashvasin
+          </h2>
+
+        </div>
+
+      </div>
+
+    </a>
+
+  </div>
+
+</section>
+  <!-- Insights section -->
+
+  <section class="w-full bg-black text-white px-6 md:px-12 py-28 overflow-hidden">
+
+    <!-- HEADER -->
+    <div class="mb-14">
+  
+      <div class="flex items-end gap-6">
+  
+        <h1 class="text-5xl md:text-7xl font-black uppercase leading-none">
+          TESTIMONIALS
+        </h1>
+  
+        <div class="h-[2px] bg-orange-500 flex-1 mb-2"></div>
+  
+      </div>
+  
+    </div>
+  
+    <!-- GRID -->
+    <div class="grid grid-cols-1 xl:grid-cols-2 gap-6">
+  
+      <!-- CARD -->
+      <div class="
+        relative
+        rounded-[1.6rem]
+        border
+        border-white/10
+        overflow-hidden
+        bg-[linear-gradient(90deg,#2a1108_0%,#1a1210_60%,#111_100%)]
+        px-8
+        py-7
+        max-w-[760px]
+      ">
+  
+        <!-- Diagonal -->
+        <div class="
+          absolute
+          right-[-120px]
+          bottom-[-120px]
+          w-[260px]
+          h-[260px]
+          rotate-45
+          bg-black/30
+        "></div>
+  
+        <div class="relative z-10">
+  
+          <!-- TOP -->
+          <div class="flex items-center gap-4 mb-6">
+  
+            <span class="text-orange-500 text-4xl leading-none">
+              ❝
+            </span>
+  
+            <h3 class="text-3xl font-semibold tracking-tight">
+              Chris Anderson
+            </h3>
+  
+          </div>
+  
+          <!-- LINE -->
+          <div class="h-px bg-white/10 mb-6"></div>
+  
+          <!-- CONTENT -->
+          <div class="flex items-center gap-6">
+  
+            <!-- IMAGE -->
+            <div class="shrink-0 overflow-hidden rounded-lg">
+  
+              <img
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=600&auto=format&fit=crop"
+                class="w-[150px] h-[150px] object-cover"
+              />
+  
+            </div>
+  
+            <!-- TEXT -->
+            <p class="
+              text-[1.05rem]
+              leading-[1.35]
+              text-white/90
+              font-light
+              max-w-[420px]
+            ">
+            Didn’t expect results this quickly, but they really delivered. More clients, smoother 
+            process, and way less stress on our side. Definitely worth it. 
+            </p>
+  
+          </div>
+  
+        </div>
+  
+      </div>
+  
+      <!-- CARD -->
+      <div class="
+        relative
+        rounded-[1.6rem]
+        border
+        border-white/10
+        overflow-hidden
+        bg-[linear-gradient(90deg,#2a1108_0%,#1a1210_60%,#111_100%)]
+        px-8
+        py-7
+        max-w-[760px]
+      ">
+  
+        <!-- Glow -->
+        <div class="
+          absolute
+          top-4
+          left-0
+          w-16
+          h-16
+          rounded-full
+          bg-orange-500/30
+          blur-2xl
+        "></div>
+  
+        <!-- Diagonal -->
+        <div class="
+          absolute
+          right-[-120px]
+          bottom-[-120px]
+          w-[260px]
+          h-[260px]
+          rotate-45
+          bg-black/30
+        "></div>
+  
+        <div class="relative z-10">
+  
+          <!-- TOP -->
+          <div class="flex items-center gap-4 mb-6">
+  
+            <span class="text-orange-500 text-4xl leading-none">
+              ❝
+            </span>
+  
+            <h3 class="text-3xl font-semibold tracking-tight">
+              Ryan Carter
+            </h3>
+  
+          </div>
+  
+          <!-- LINE -->
+          <div class="h-px bg-white/10 mb-6"></div>
+  
+          <!-- CONTENT -->
+          <div class="flex items-center gap-6">
+  
+            <!-- IMAGE -->
+            <div class="shrink-0 overflow-hidden rounded-lg">
+  
+              <img
+                src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=600&auto=format&fit=crop"
+                class="w-[150px] h-[150px] object-cover"
+              />
+  
+            </div>
+  
+            <!-- TEXT -->
+            <p class="
+              text-[1.05rem]
+              leading-[1.35]
+              text-white/90
+              font-light
+              max-w-[420px]
+            ">
+            Super easy team to work with. They actually 
+            know what they’re doing—we saw more clients coming in pretty quickly. 
+            </p>
+  
+          </div>
+  
+        </div>
+  
+      </div>
+  
+    </div>
+  
+  </section>
+
+  <section class="w-full bg-black text-white px-6 md:px-12 py-24 overflow-hidden">
+
+    <!-- HEADER -->
+    <div class="mb-14">
+  
+      <div class="flex items-end gap-6">
+  
+        <h1 class="text-6xl md:text-8xl font-black uppercase leading-none">
+          INSIGHTS
+        </h1>
+  
+        <div class="h-[2px] bg-orange-500 flex-1 mb-3"></div>
+  
+      </div>
+  
+    </div>
+  
+    <!-- INSIGHTS -->
+    <div class="space-y-8">
+  
+      <!-- CARD -->
+      <div class="
+        group
+        relative
+        overflow-hidden
+        rounded-[2rem]
+        border
+        border-orange-500/20
+        bg-[#090909]
+        min-h-[33vh]
+        w-full
+        px-8
+        md:px-12
+        py-10
+      ">
+  
+        <!-- Glow -->
+        <div class="
+          absolute
+          inset-0
+          bg-[radial-gradient(circle_at_center,rgba(255,120,0,.12),transparent_70%)]
+        "></div>
+  
+        <!-- Diagonal -->
+        <div class="
+          absolute
+          left-0
+          top-0
+          w-full
+          h-full
+          bg-[linear-gradient(145deg,rgba(255,255,255,.03)_0%,transparent_40%)]
+        "></div>
+  
+        <div class="
+          relative
+          z-10
+          grid
+          grid-cols-1
+          xl:grid-cols-[1.3fr_.7fr]
+          gap-12
+          items-center
+          h-full
+        ">
+  
+          <!-- LEFT -->
+          <div class="max-w-4xl">
+  
+            <!-- TAG -->
+            <div class="
+              inline-flex
+              px-6
+              py-2
+              rounded-full
+              border
+              border-orange-500/40
+              text-sm
+              uppercase
+              tracking-wide
+              text-white/80
+              mb-8
+            ">
+              Technology
+            </div>
+  
+            <!-- TITLE -->
+            <h2 class="
+              text-4xl
+              md:text-6xl
+              font-semibold
+              leading-[1]
+              tracking-tight
+              max-w-5xl
+            ">
+            AI in Business: Turning Systems into Revenue
+            </h2>
+  
+            <!-- LINE -->
+            <div class="w-60 h-px bg-white/10 my-8"></div>
+  
+            <!-- ACTIONS -->
+            <div class="flex items-center gap-4">
+  
+              <!-- Avatar -->
+              <div class="
+                w-16
+                h-16
+                rounded-full
+                bg-zinc-800
+                border
+                border-white/10
+                flex
+                items-center
+                justify-center
+                text-2xl
+              ">
+                👤
+              </div>
+  
+              <!-- Arrow -->
+              <button class="
+                w-16
+                h-16
+                rounded-full
+                bg-zinc-800
+                border
+                border-white/10
+                text-3xl
+                hover:bg-orange-500
+                transition
+              ">
+                →
+              </button>
+  
+            </div>
+  
+          </div>
+  
+          <!-- RIGHT -->
+          <div class="overflow-hidden rounded-2xl">
+  
+            <img
+              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1600&auto=format&fit=crop"
+              class="
+                w-full
+                h-[320px]
+                object-cover
+                group-hover:scale-105
+                transition
+                duration-700
+              "
+            />
+  
+          </div>
+  
+        </div>
+  
+      </div>
+  
+      <!-- CARD -->
+      <div class="
+        group
+        relative
+        overflow-hidden
+        rounded-[2rem]
+        border
+        border-white/10
+        bg-[#090909]
+        min-h-[33vh]
+        w-full
+        px-8
+        md:px-12
+        py-10
+      ">
+  
+        <!-- Diagonal -->
+        <div class="
+          absolute
+          left-0
+          top-0
+          w-full
+          h-full
+          bg-[linear-gradient(145deg,rgba(255,255,255,.03)_0%,transparent_40%)]
+        "></div>
+  
+        <div class="
+          relative
+          z-10
+          grid
+          grid-cols-1
+          xl:grid-cols-[1.3fr_.7fr]
+          gap-12
+          items-center
+          h-full
+        ">
+  
+          <!-- LEFT -->
+          <div class="max-w-4xl">
+  
+            <div class="
+              inline-flex
+              px-6
+              py-2
+              rounded-full
+              border
+              border-orange-500/20
+              text-sm
+              uppercase
+              tracking-wide
+              text-white/70
+              mb-8
+            ">
+              Technology
+            </div>
+  
+            <h2 class="
+              text-4xl
+              md:text-6xl
+              font-semibold
+              leading-[1]
+              tracking-tight
+              text-white/70
+              max-w-5xl
+            ">
+            Scaling with Paid Ads: What’s Working Now
+            </h2>
+  
+            <div class="w-60 h-px bg-white/10 my-8"></div>
+  
+            <div class="flex items-center gap-4">
+  
+              <div class="
+                w-16
+                h-16
+                rounded-full
+                bg-zinc-800
+                border
+                border-white/10
+                flex
+                items-center
+                justify-center
+                text-2xl
+              ">
+                👤
+              </div>
+  
+              <button class="
+                w-16
+                h-16
+                rounded-full
+                bg-zinc-800
+                border
+                border-white/10
+                text-3xl
+                hover:bg-orange-500
+                transition
+              ">
+                →
+              </button>
+  
+            </div>
+  
+          </div>
+  
+          <!-- RIGHT -->
+          <div class="overflow-hidden rounded-2xl">
+  
+            <img
+              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1600&auto=format&fit=crop"
+              class="
+                w-full
+                h-[320px]
+                object-cover
+                group-hover:scale-105
+                transition
+                duration-700
+              "
+            />
+  
+          </div>
+  
+        </div>
+  
+      </div>
+  
+      <!-- CARD -->
+      <div class="
+        group
+        relative
+        overflow-hidden
+        rounded-[2rem]
+        border
+        border-white/10
+        bg-[#090909]
+        min-h-[33vh]
+        w-full
+        px-8
+        md:px-12
+        py-10
+      ">
+  
+        <div class="
+          absolute
+          left-0
+          top-0
+          w-full
+          h-full
+          bg-[linear-gradient(145deg,rgba(255,255,255,.03)_0%,transparent_40%)]
+        "></div>
+  
+        <div class="
+          relative
+          z-10
+          grid
+          grid-cols-1
+          xl:grid-cols-[1.3fr_.7fr]
+          gap-12
+          items-center
+        ">
+  
+          <div class="max-w-4xl">
+  
+            <div class="
+              inline-flex
+              px-6
+              py-2
+              rounded-full
+              border
+              border-orange-500/20
+              text-sm
+              uppercase
+              tracking-wide
+              text-white/70
+              mb-8
+            ">
+              Branding
+            </div>
+  
+            <h2 class="
+              text-4xl
+              md:text-6xl
+              font-semibold
+              leading-[1]
+              tracking-tight
+              max-w-5xl
+            ">
+            Client Acquisition Systems That Actually Convert
+            </h2>
+  
+            <div class="w-60 h-px bg-white/10 my-8"></div>
+  
+            <div class="flex items-center gap-4">
+  
+              <div class="
+                w-16
+                h-16
+                rounded-full
+                bg-zinc-800
+                border
+                border-white/10
+                flex
+                items-center
+                justify-center
+                text-2xl
+              ">
+                👤
+              </div>
+  
+              <button class="
+                w-16
+                h-16
+                rounded-full
+                bg-zinc-800
+                border
+                border-white/10
+                text-3xl
+                hover:bg-orange-500
+                transition
+              ">
+                →
+              </button>
+  
+            </div>
+  
+          </div>
+  
+          <div class="overflow-hidden rounded-2xl">
+  
+            <img
+              src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=1600&auto=format&fit=crop"
+              class="
+                w-full
+                h-[320px]
+                object-cover
+                group-hover:scale-105
+                transition
+                duration-700
+              "
+            />
+  
+          </div>
+  
+        </div>
+  
+      </div>
+  
+      <!-- CARD -->
+      <div class="
+        group
+        relative
+        overflow-hidden
+        rounded-[2rem]
+        border
+        border-white/10
+        bg-[#090909]
+        min-h-[33vh]
+        w-full
+        px-8
+        md:px-12
+        py-10
+      ">
+  
+        <div class="
+          absolute
+          left-0
+          top-0
+          w-full
+          h-full
+          bg-[linear-gradient(145deg,rgba(255,255,255,.03)_0%,transparent_40%)]
+        "></div>
+  
+        <div class="
+          relative
+          z-10
+          grid
+          grid-cols-1
+          xl:grid-cols-[1.3fr_.7fr]
+          gap-12
+          items-center
+        ">
+  
+          <div class="max-w-4xl">
+  
+            <div class="
+              inline-flex
+              px-6
+              py-2
+              rounded-full
+              border
+              border-orange-500/20
+              text-sm
+              uppercase
+              tracking-wide
+              text-white/70
+              mb-8
+            ">
+              AI Systems
+            </div>
+  
+            <h2 class="
+              text-4xl
+              md:text-6xl
+              font-semibold
+              leading-[1]
+              tracking-tight
+              max-w-5xl
+            ">
+            From Leads to Revenue: Building Predictable Growth
+            </h2>
+  
+            <div class="w-60 h-px bg-white/10 my-8"></div>
+  
+            <div class="flex items-center gap-4">
+  
+              <div class="
+                w-16
+                h-16
+                rounded-full
+                bg-zinc-800
+                border
+                border-white/10
+                flex
+                items-center
+                justify-center
+                text-2xl
+              ">
+                👤
+              </div>
+  
+              <button class="
+                w-16
+                h-16
+                rounded-full
+                bg-zinc-800
+                border
+                border-white/10
+                text-3xl
+                hover:bg-orange-500
+                transition
+              ">
+                →
+              </button>
+  
+            </div>
+  
+          </div>
+  
+          <div class="overflow-hidden rounded-2xl">
+  
+            <img
+              src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=1600&auto=format&fit=crop"
+              class="
+                w-full
+                h-[320px]
+                object-cover
+                group-hover:scale-105
+                transition
+                duration-700
+              "
+            />
+  
+          </div>
+  
+        </div>
+  
+      </div>
+  
+    </div>
+  
+  </section>
+
+    <!-- FOOTER -->
+    <footer class="
+    relative
+    bg-black
+    overflow-hidden
+    border-t
+    border-white/20
+  ">
+
+    <!-- MAIN -->
+    <div class="grid lg:grid-cols-2 min-h-[78vh] gap-10">
+
+      <!-- LEFT -->
+      <div class="flex flex-col justify-between px-8 md:px-16 py-16">
+
+        <!-- TOP -->
+        <div>
+
+          <!-- LOGO -->
+          <div>
+
+            <h1 class="
+              text-[5rem]
+              md:text-[7rem]
+              font-black
+              tracking-[-0.05em]
+              leading-none
+              text-white
+            ">
+              Vittoris
+            </h1>
+
+            <!-- ORANGE LINE -->
+            <div class="w-24 h-[3px] bg-orange-500 mt-6"></div>
+
+          </div>
+
+          <!-- SOCIALS -->
+          <div class="flex items-center gap-6 mt-12">
+
+            <!-- ICON -->
+            <a href="#"
+              class="
+                w-16
+                h-16
+                rounded-full
+                border
+                border-white/10
+                flex
+                items-center
+                justify-center
+                text-orange-500
+                text-3xl
+                hover:border-orange-500
+                transition
+              "
+            >
+              in
+            </a>
+
+            <!-- ICON -->
+            <a href="#"
+              class="
+                w-16
+                h-16
+                rounded-full
+                border
+                border-white/10
+                flex
+                items-center
+                justify-center
+                text-orange-500
+                text-3xl
+                hover:border-orange-500
+                transition
+              "
+            >
+              ×
+            </a>
+
+            <!-- ICON -->
+            <a href="#"
+              class="
+                w-16
+                h-16
+                rounded-full
+                border
+                border-white/10
+                flex
+                items-center
+                justify-center
+                text-orange-500
+                text-3xl
+                hover:border-orange-500
+                transition
+              "
+            >
+              ⬡
+            </a>
+
+            <!-- ICON -->
+            <a href="#"
+              class="
+                w-16
+                h-16
+                rounded-full
+                border
+                border-white/10
+                flex
+                items-center
+                justify-center
+                text-orange-500
+                text-3xl
+                hover:border-orange-500
+                transition
+              "
+            >
+              ✉
+            </a>
+
+          </div>
+
+        </div>
+
+        <!-- LINKS -->
+        <div class="
+        grid
+        grid-cols-2
+        md:grid-cols-3
+    
+        gap-10
+        md:gap-12
+    
+        mt-16
+        md:mt-20
+    
+        max-w-[900px]
+    ">
+
+          <!-- COLUMN -->
+          <div>
+
+            <h3 class="
+              text-white
+              uppercase
+              text-2xl
+              font-medium
+              mb-8
+            ">
+              Company
+            </h3>
+
+            <ul class="space-y-5 text-white/55 text-[1.2rem]">
+
+              <li>
+                <a href="#" class="hover:text-orange-500 transition">
+                  About Us
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="hover:text-orange-500 transition">
+                  Our Work
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="hover:text-orange-500 transition">
+                  Insights
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="hover:text-orange-500 transition">
+                  Careers
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="hover:text-orange-500 transition">
+                  Contact
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <!-- COLUMN -->
+          <div class="border-l border-white/10 sm:pl-10 pl-0">
+
+            <h3 class="
+              text-white
+              uppercase
+              text-2xl
+              font-medium
+              mb-8
+            ">
+              Services
+            </h3>
+
+            <ul class="space-y-5 text-white/55 text-[1.2rem]">
+
+              <li>
+                <a href="#" class="hover:text-orange-500 transition">
+                  Branding
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="hover:text-orange-500 transition">
+                  Automation
+                </a>
+              </li>
+
+              <li>
+                <a href="index.html" class="hover:text-orange-500 transition">
+                  Growth Systems
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="hover:text-orange-500 transition">
+                  Consulting
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+      
+        </div>
+
+        <!-- BOTTOM -->
+        <div class="
+          mt-20
+          pt-8
+          border-t
+          border-white
+          flex
+          flex-col
+          md:flex-row
+          justify-between
+          gap-4
+          text-white/50
+          text-[1rem]
+        ">
+
+          <p>
+            © 2025 Vittoris. All rights reserved.
+          </p>
+
+          <p>
+            Built for growth. Designed to scale.
+          </p>
+
+        </div>
+
+      </div>
+
+    
+  <!-- RIGHT -->
+  <div class="
+    relative
+    flex
+    items-end
+    justify-center
+    lg:justify-end
+
+    min-h-[300px]
+    md:min-h-[420px]
+    lg:min-h-full
+
+    overflow-hidden
+  ">
+
+    <img
+      src="images/footer-wireframe.png"
+      alt=""
+      class="
+        absolute
+
+        bottom-0
+        right-1/2
+        translate-x-1/2
+
+        lg:right-0
+        lg:translate-x-0
+
+        w-[280px]
+        sm:w-[340px]
+        md:w-[420px]
+        lg:w-[650px]
+
+        h-auto
+        object-contain
+        object-right-bottom
+
+        opacity-90
+
+        pointer-events-none
+
+        lg:-translate-y-20
+      "
+    />
+
+  </div>
+
+    </div>
+
+  </footer>
+
+  
+
+
+  <script>
+
+
+
+    // Navbar Scroll Effect
+    window.addEventListener('scroll', () => {
+
+      const nav = document.querySelector('nav');
+
+      if(window.scrollY > 50) {
+        nav.style.background = 'rgba(0,0,0,0.7)';
+      } else {
+        nav.style.background = 'rgba(255,255,255,0.05)';
+      }
+    });
+
+    const dot = document.querySelector('.dot');
+
+    window.addEventListener('mousemove',(e) => {
+      dot.style.display = 'block';
+      dot.style.boxShadow = "5px 5px 45px rgba(1, 0, 0, 0)";
+      const dream = document.querySelector('.dream-section');
+     
+      const mouseX = e.clientX,
+            mouseY = e.clientY;
+
+    dot.animate({
+    transform: `translate(${mouseX-10}px, ${mouseY-10}px)`
+
+    }, {
+    duration: 500,
+    fill: "forwards",
+    easing: "ease"
+    })
+    });
+    dot.style.boxShadow = "0px 0px 0px "; 
+
+
+    // Mouse Parallax
+    document.addEventListener('mousemove', (e) => {
+
+      const planet = document.querySelector('.planet');
+
+      let x = (window.innerWidth / 2 - e.pageX) / 25;
+      let y = (window.innerHeight / 2 - e.pageY) / 25;
+
+      planet.style.transform = `translateX(-60%) translate(${x}px, ${y}px)`;
+    });
+
+  </script>
+
+  <script src="https://unpkg.com/@studio-freight/lenis/dist/lenis.min.js"></script>
+    <script>
+      // Initialize Lenis
+      const lenis = new Lenis({
+        duration: 1.5, // smoothness (default 1.2)
+        easing: (t) => Math.min(1, 1.01 - Math.pow(2, -10 * t)), // easing function
+        smooth: true,
+      })
+  
+      // RAF loop
+      function raf(time) {
+        lenis.raf(time)
+        requestAnimationFrame(raf)
+      }
+  
+      requestAnimationFrame(raf)
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
